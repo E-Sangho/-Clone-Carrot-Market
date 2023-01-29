@@ -2,6 +2,7 @@ import type { NextPage } from "next";
 import Layout from "@components/layout";
 import Message from "@components/message";
 import React from "react";
+import { useRouter } from "next/router";
 
 const ChatDetail: NextPage = () => {
 	return (
